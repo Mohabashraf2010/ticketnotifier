@@ -2,6 +2,10 @@ from pathlib import Path
 
 import requests
 from playwright.sync_api import sync_playwright
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ==========================================================
 # CONFIGURATION
@@ -9,11 +13,12 @@ from playwright.sync_api import sync_playwright
 
 URL = "https://cfc.scenecinemas.com/movie-details/spider-man-brand-new-day.html"
 
-BOT_TOKEN = "8714638151:AAHBD8tmkZ29un07DhX1Lo9lm2O9Z_pIZqA"
-CHAT_ID = "6586970517"
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 # Thursday you're waiting for
-TARGET_DATE = "06-08-2026"
+TARGET_DATE = "05-08-2026"
 
 # Run browser in background
 HEADLESS = True
