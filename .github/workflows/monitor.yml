@@ -2,7 +2,7 @@ name: Spider Ticket Monitor
 
 on:
   schedule:
-    # Every 5 minutes
+    # check Every 5 minutes
     - cron: "*/5 * * * *"
 
   # Allows you to run it manually
