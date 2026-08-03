@@ -18,7 +18,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
 # Thursday you're waiting for
-TARGET_DATE = "05-08-2026"
+TARGET_DATE = "06-08-2026"
 
 # Run browser in background
 HEADLESS = True
