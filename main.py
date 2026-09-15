@@ -17,7 +17,7 @@ URL = "https://cfc.scenecinemas.com/movie-details/spider-man-brand-new-day.html"
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
-# Thursday you're waiting for
+# Show date to monitor (DD-MM-YYYY)
 TARGET_DATE = "06-08-2026"
 
 # Run browser in background
@@ -82,7 +82,7 @@ def get_rendered_html():
 def main():
 
     print("=" * 60)
-    print("Spider-Man Ticket Monitor")
+    print("ticketnotifier")
     print("=" * 60)
 
     # Don't notify twice
@@ -139,7 +139,7 @@ def main():
     if tickets_available:
 
         message = f"""
-🎬 Spider-Man Thursday Tickets Are LIVE!
+🎬 Tickets Are LIVE!
 
 Date:
 {TARGET_DATE}
@@ -167,7 +167,7 @@ Book now:
     else:
 
         print()
-        print("❌ Thursday tickets not available yet.")
+        print("❌ Tickets for the target date are not available yet.")
 
 
 # ==========================================================

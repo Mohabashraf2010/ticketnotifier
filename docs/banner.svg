@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">ticketnotifier</title>
+  <desc id="desc">Cinema showtime monitoring with Telegram alerts.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d35"/><stop offset="1" stop-color="#172c4c"/></linearGradient>
+    <linearGradient id="accent" x2="1" y2="1"><stop stop-color="#64ecd1"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <circle cx="1110" cy="55" r="180" fill="#38bdf8" opacity=".05"/>
+  <circle cx="1050" cy="330" r="200" fill="#64ecd1" opacity=".04"/>
+  <text x="64" y="79" fill="#64ecd1" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="4">CINEMA • AUTOMATION • ALERTS</text>
+  <text x="60" y="168" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="72" font-weight="700" letter-spacing="-2">ticketnotifier</text>
+  <text x="64" y="221" fill="#b4c7dd" font-family="Arial,sans-serif" font-size="24">Spend less time refreshing. Get the booking link.</text>
+  <rect x="64" y="265" width="10" height="10" rx="5" fill="#64ecd1"/>
+  <text x="87" y="278" fill="#d2dfed" font-family="Arial,sans-serif" font-size="17">Python + Playwright + Telegram</text>
+  <g transform="translate(910 103) rotate(-10 100 65)">
+    <path d="M16 0h168a16 16 0 0 1 16 16v27a22 22 0 0 0 0 44v27a16 16 0 0 1-16 16H16a16 16 0 0 1-16-16V87a22 22 0 0 0 0-44V16A16 16 0 0 1 16 0Z" fill="url(#accent)"/>
+    <path d="M143 12v106" stroke="#13233c" stroke-width="3" stroke-dasharray="7 7" opacity=".45"/>
+    <path d="m44 68 23 22 42-47" fill="none" stroke="#13233c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
