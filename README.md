@@ -15,7 +15,7 @@
 
 ## Overview
 
-**ticketnotifier** is a lightweight Python monitor for Scene Cinemas. It renders a movie page with Chromium, checks for a selected show date, and sends a Telegram message with the booking link when the page indicates availability.
+**ticketnotifier** is a lightweight Python monitor for Cinemas. It renders a movie page with Chromium, checks for a selected show date, and sends a Telegram message with the booking link when the page indicates availability.
 
 | Feature | What it does |
 | --- | --- |
